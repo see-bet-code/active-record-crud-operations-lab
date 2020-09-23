@@ -7,9 +7,12 @@ gem 'rake'
 gem 'require_all'
 gem 'sqlite3', '~>1.3.6'
 gem 'pry'
+gem 'rspec'
+gem 'rack-test'
+gem 'database_cleaner'
 
 group :test do
-  gem 'rspec'
-  gem 'rack-test'
-  gem 'database_cleaner'
+  #gem 'rspec'
+  #gem 'rack-test'
+  #gem 'database_cleaner'
 end
